@@ -7,13 +7,14 @@ El Bubble sort funciona comparando los vecinos y utilizando la función de inter
 
 Para medir el rendimiento de ambos algoritmos se utiliza la función clock() para medir el tiempo que cada algoritmo ocupa, y se puede concluir que selection sort es más eficaz en cuanto a número de intercambios, mientras que bubble sort funciona en arreglos de menor tamaño.
 
-
-
 Comparación
 
  Tamaño  Bubble Sort (s)  Selection Sort (s) 
  10      0.000003         0.000002           
  100     0.000021         0.000012           
  1000    0.001765         0.000876           
- 10000   0.203491         0.098324           
+ 10000   0.203491         0.098324        
+
+ Compilación: gcc T2_C4L209.c -o T2_C4L209 
+ Uso: ./T2_C4L209.c
 
